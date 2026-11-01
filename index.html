@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Muhamad Nasih Syahmi, a Network Computing student at UNIMAS.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Muhamad Nasih Syahmi | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nasih home"><span class="brand-mark">N</span><span>nasih<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch colour theme" title="Switch colour theme">☼</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> NETWORK COMPUTING STUDENT</p>
+        <h1>Hi, I'm <span class="gradient-text">Muhamad Nasih Syahmi.</span></h1>
+        <h2>I’m interested in <span class="typed-text" id="typedText">networking</span><span class="cursor">|</span></h2>
+        <p class="hero-description">A Year 3 Network Computing student at Universiti Malaysia Sarawak (UNIMAS), exploring how technology, networks and software can solve real-world problems.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌖</span> UNIMAS, Malaysia</span>
+          <span><span class="meta-icon">▣</span> Network Computing</span>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative technology illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-glow"></div>
+        <div class="code-card">
+          <div class="code-card-top"><span></span><span></span><span></span><small>about_me.js</small></div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Nasih"</span>,
+  field: <span class="code-green">"Network Computing"</span>,
+  interests: [
+    <span class="code-green">"Networking"</span>,
+    <span class="code-green">"Programming"</span>,
+    <span class="code-green">"Technology"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>
+};</code></pre>
+          <div class="code-card-footer"><span class="status-dot"></span> open to learning & opportunities</div>
+        </div>
+        <div class="floating-chip chip-one">⌘ Problem solving</div>
+        <div class="floating-chip chip-two">◈ Always learning</div>
+      </div>
+    </section>
+
+    <section class="quick-strip container reveal" aria-label="Portfolio highlights">
+      <div><strong>01</strong><span>Curious mindset</span></div>
+      <div><strong>02</strong><span>Technical learning</span></div>
+      <div><strong>03</strong><span>Practical projects</span></div>
+      <div><strong>04</strong><span>Future-focused</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little introduction to my background, interests and learning journey.</p>
+      </div>
+      <div class="about-grid">
+        <article class="about-card panel reveal">
+          <div class="section-icon">✦</div>
+          <h3>Who am I?</h3>
+          <p>I'm Muhamad Nasih Syahmi, a Year 3 student pursuing Network Computing at Universiti Malaysia Sarawak (UNIMAS). I enjoy learning about computers and understanding how digital systems communicate and work together.</p>
+          <p>Through coursework and practical assignments, I have been developing my knowledge in programming, database design, networking and system administration. I aim to keep improving my technical and problem-solving skills.</p>
+        </article>
+        <div class="about-side">
+          <article class="info-card panel reveal">
+            <span class="card-kicker">EDUCATION</span>
+            <h3>Universiti Malaysia Sarawak</h3>
+            <p>Bachelor's degree studies · Network Computing</p>
+            <span class="info-tag">Year 3 student</span>
+          </article>
+          <article class="info-card panel reveal">
+            <span class="card-kicker">INTERESTS</span>
+            <div class="tag-list"><span>Computer technology</span><span>Networking</span><span>Programming</span><span>Gaming</span><span>Football</span></div>
+          </article>
+        </div>
+      </div>
+      <div class="skills-block reveal">
+        <div class="skills-title"><div><p class="eyebrow">WHAT I'M LEARNING</p><h3>Skills & technologies</h3></div><p class="muted">A snapshot of topics explored through my studies.</p></div>
+        <div class="skill-grid">
+          <div class="skill-item"><span class="skill-symbol">HTML</span><div><strong>Web fundamentals</strong><small>HTML, CSS & JavaScript</small></div></div>
+          <div class="skill-item"><span class="skill-symbol">C++</span><div><strong>Programming</strong><small>C and C++ fundamentals</small></div></div>
+          <div class="skill-item"><span class="skill-symbol">DB</span><div><strong>Database concepts</strong><small>ERD, SQL & normalisation</small></div></div>
+          <div class="skill-item"><span class="skill-symbol">NET</span><div><strong>Networking</strong><small>Network commands & concepts</small></div></div>
+          <div class="skill-item"><span class="skill-symbol">SYS</span><div><strong>System administration</strong><small>Monitoring & troubleshooting</small></div></div>
+          <div class="skill-item"><span class="skill-symbol">UI</span><div><strong>Documentation</strong><small>Technical reports & presentations</small></div></div>
+        </div>
+        <p class="skills-note">Note: These represent topics I have studied or practised. Please adjust this list to match your actual experience and confidence.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED COURSEWORK</p>
+          <h2>My <span class="gradient-text">Projects</span></h2>
+          <p>A selection of academic work and technical topics from my learning journey.</p>
+        </div>
+        <div class="project-toolbar reveal">
+          <div class="filter-list" role="group" aria-label="Filter projects">
+            <button class="filter-btn active" data-filter="all" type="button" aria-pressed="true">All</button>
+            <button class="filter-btn" data-filter="programming" type="button" aria-pressed="false">Programming</button>
+            <button class="filter-btn" data-filter="database" type="button" aria-pressed="false">Database</button>
+            <button class="filter-btn" data-filter="networking" type="button" aria-pressed="false">Networking</button>
+            <button class="filter-btn" data-filter="research" type="button" aria-pressed="false">Research</button>
+          </div>
+          <span class="project-count" id="projectCount" aria-live="polite">Showing 5 projects</span>
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card panel reveal" data-category="programming">
+            <div class="project-visual visual-purple"><span class="visual-label">C++ / OOP</span><div class="visual-symbol">⌘</div><span class="visual-caption">STUDENT GROUP FINDER</span></div>
+            <div class="project-content"><div class="project-meta"><span>PROGRAMMING</span><span>01 / 05</span></div><h3>Student Group Finder System</h3><p>An academic system concept for organising students into groups. The work explores object-oriented programming, class relationships and managing student and group data.</p><button class="text-link project-details" type="button" data-project="0">View project details <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card panel reveal" data-category="database">
+            <div class="project-visual visual-blue"><span class="visual-label">DATABASE / SQL</span><div class="visual-symbol">▤</div><span class="visual-caption">GYM MANAGEMENT</span></div>
+            <div class="project-content"><div class="project-meta"><span>DATABASE</span><span>02 / 05</span></div><h3>Gym Management Database</h3><p>A database design exercise involving members, trainers and fitness programmes, with attention to entity relationships and database normalisation.</p><button class="text-link project-details" type="button" data-project="1">View project details <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card panel reveal" data-category="research">
+            <div class="project-visual visual-cyan"><span class="visual-label">HARDWARE / AI</span><div class="visual-symbol">◈</div><span class="visual-caption">AI WORKSTATION</span></div>
+            <div class="project-content"><div class="project-meta"><span>RESEARCH</span><span>03 / 05</span></div><h3>Generative AI Workstation Design</h3><p>A research assignment comparing workstation components for a small research lab, considering processing performance, memory, graphics capability and budget.</p><button class="text-link project-details" type="button" data-project="2">View project details <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card panel reveal" data-category="networking">
+            <div class="project-visual visual-orange"><span class="visual-label">NETWORK / SYSTEMS</span><div class="visual-symbol">⌁</div><span class="visual-caption">NETWORK TROUBLESHOOTING</span></div>
+            <div class="project-content"><div class="project-meta"><span>NETWORKING</span><span>04 / 05</span></div><h3>Network Administration & Troubleshooting</h3><p>Practical learning involving network diagnostic commands such as netstat, tracert and pathping to understand connectivity and network behaviour.</p><button class="text-link project-details" type="button" data-project="3">View project details <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="project-card panel reveal" data-category="research">
+            <div class="project-visual visual-green"><span class="visual-label">SUSTAINABILITY / IR 4.0</span><div class="visual-symbol">♧</div><span class="visual-caption">GREEN DATA CENTRE</span></div>
+            <div class="project-content"><div class="project-meta"><span>RESEARCH</span><span>05 / 05</span></div><h3>Green & Energy-Efficient Data Centre Management</h3><p>A group assessment exploring data centre energy efficiency, operational challenges and approaches to more sustainable digital infrastructure.</p><button class="text-link project-details" type="button" data-project="4">View project details <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">These entries are based on academic topics discussed during my studies. Update each description to reflect the final work, tools used and your personal contribution.</p>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel panel reveal">
+        <div class="contact-copy">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a question or an opportunity?</h2>
+          <p>I'm always interested in learning, sharing ideas and connecting with people in technology. Feel free to reach out.</p>
+          <div class="contact-method"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:YOUR_EMAIL@example.com" id="emailLink">YOUR_EMAIL@example.com</a></div></div>
+          <p class="contact-edit-note">Replace the example email address with your real email before publishing.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="visitorName">Your name</label>
+          <input type="text" id="visitorName" name="name" placeholder="Enter your name" autocomplete="name" required>
+          <small class="field-error" id="nameError"></small>
+          <label for="visitorEmail">Your email</label>
+          <input type="email" id="visitorEmail" name="email" placeholder="name@example.com" autocomplete="email" required>
+          <small class="field-error" id="emailError"></small>
+          <label for="visitorMessage">Message</label>
+          <textarea id="visitorMessage" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <small class="field-error" id="messageError"></small>
+          <button class="btn btn-primary submit-btn" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formStatus" role="status">This front-end form opens your email application; it does not store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">N</span><span>nasih<span class="brand-dot">.</span></span></a><p>Designed & built by Muhamad Nasih Syahmi.</p><a href="#home" class="footer-top">Back to top ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="currentYear"></span> Muhamad Nasih Syahmi</span><span>Built with HTML, CSS & JavaScript</span></div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content panel">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close project details">×</button>
+      <p class="eyebrow" id="modalCategory">PROJECT DETAILS</p>
+      <h2 id="modalTitle">Project title</h2>
+      <p id="modalDescription"></p>
+      <h3>What this project explores</h3>
+      <ul id="modalPoints"></ul>
+      <p class="modal-reminder">Edit this information so it accurately describes your own work and contribution.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -75,7 +75,7 @@ h1 { max-width: 690px; margin-top: 22px; font-size: clamp(2.8rem, 6vw, 5rem); }
 .orbit { position: absolute; border: 1px solid rgba(132, 151, 205, .22); border-radius: 50%; transform: rotate(-25deg); }
 .orbit-one { width: 420px; height: 170px; }
 .orbit-two { width: 360px; height: 240px; transform: rotate(52deg); }
-.code-card { position: relative; z-index: 2; width: min(100%, 390px); border: 1px solid rgba(158, 172, 220, .22); border-radius: 17px; background: rgba(13, 20, 37, .94); box-shadow: 0 30px 90px rgba(0, 0, 0, .38); overflow: hidden; transform: rotate(-3deg); }
+.code-card { position: relative; z-index: 1; width: 300px; height: 350px; border: 1px solid rgba(158, 172, 220, .22); border-radius: 17px; background: rgba(13, 20, 37, .94); box-shadow: 0 30px 90px rgba(0, 0, 0, .38); overflow: hidden; transform: rotate(-3deg); }
 .code-card-top { display: flex; align-items: center; gap: 6px; padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,.08); color: #8996b0; }
 .code-card-top > span { width: 8px; height: 8px; border-radius: 50%; background: #ff6f78; }
 .code-card-top > span:nth-child(2) { background: #f7c45c; }.code-card-top > span:nth-child(3) { background: #5ed8a2; }

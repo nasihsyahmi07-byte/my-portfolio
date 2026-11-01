@@ -242,8 +242,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     // IMPORTANT: Replace this address with your own before publishing.
-    const destination = "YOUR_EMAIL@example.com";
-    if (destination.includes("YOUR_EMAIL")) {
+    const destination = "nasihsyahmi07@gmail.com";
+    if (destination.includes("nasihsyahmi07@gmail.com")) {
       formStatus.textContent = "Form is valid. Add your real email address in script.js and index.html to enable email sending.";
       return;
     }

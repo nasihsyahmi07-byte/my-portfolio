@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", () => {
       formStatus.textContent = "Please correct the highlighted fields.";
       return;
     }
-    // IMPORTANT: Replace this address with your own before publishing.
+   
     const destination = "nasihsyahmi07@gmail.com";
     if (destination.includes("nasihsyahmi07@gmail.com")) {
       formStatus.textContent = "Form is valid. Add your real email address in script.js and index.html to enable email sending.";

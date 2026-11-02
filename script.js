@@ -141,10 +141,10 @@ document.addEventListener("DOMContentLoaded", () => {
       points: ["Identify entities, attributes and relationships.", "Apply normalisation concepts including 1NF, 2NF and 3NF.", "Represent the design using an ER diagram and relational schema."]
     },
     {
-      category: "RESEARCH / COMPUTER HARDWARE",
-      title: "Generative AI Workstation Design",
-      description: "A research assignment comparing hardware options for a two-person research lab workstation under a stated budget.",
-      points: ["Compare CPU and GPU capabilities for AI workloads.", "Consider RAM, VRAM, compatibility and expansion.", "Evaluate component choices against performance and budget."]
+      category: "RESEARCH / PHYTON",
+      title: "Developed Phyton Application to Samarahan Farmers",
+      description: "Developing a Python application using Object-Oriented Software Development (OOSD) principles to connect local agricultural producers with consumers in Kota Samarahan.",
+      points: ["seeking information about consumer needs.", "Brainstroming the Phyton application design."]
     },
     {
       category: "NETWORKING / SYSTEM ADMINISTRATION",
